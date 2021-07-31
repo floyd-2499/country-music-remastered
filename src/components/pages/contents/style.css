@@ -1,0 +1,162 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: #1c1c1c;
+  width: 100%;
+  height: 18vh;
+}
+.h-logo {
+  flex: 4;
+  display: flex;
+  align-items: center;
+}
+.main-logo {
+  height: 90%;
+  width: auto;
+}
+.nav-links {
+  flex: 3;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.right-end {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex: 3;
+}
+ul {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+  flex: 6;
+}
+
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: rgb(206, 206, 206);
+  font-size: 18px;
+  font-family: "Bubblegum Sans", cursive;
+  transition: width 2s;
+  padding: 10px 0px;
+}
+.signin-btn button {
+  background-color: #1c1c1c;
+  outline: none;
+  border: none;
+  font-size: 22px;
+  color: #fff;
+}
+i {
+  font-size: 25px;
+  color: #fff;
+}
+/* hover effects */
+a:hover {
+  color: #84dcc6;
+  transition: all 0.5s;
+}
+.cart a:hover i,
+button:hover {
+  text-shadow: none;
+  color: #84dcc6;
+}
+button:hover i {
+  color: #84dcc6;
+}
+
+/* footer */
+.f-con {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.f-text {
+  height: 40px;
+  width: 100%;
+  color: white;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer {
+  width: 100%;
+  height: 30vh;
+  background: #1c1c1c;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  padding-bottom: 20px;
+}
+.foot,
+.address,
+.social-media {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.foot {
+  width: 250px;
+  height: auto;
+}
+.logo-img {
+  width: auto;
+  height: 20%;
+}
+.f-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  margin: 0px auto;
+}
+.address {
+  margin-top: -15px;
+  text-align: center;
+}
+.address p {
+  line-height: 20px;
+  color: #95a3b3;
+}
+
+.social-media p {
+  font-size: 30px;
+  font-weight: 600;
+  color: #84dcc6;
+  font-family: "Bubblegum Sans", cursive;
+}
+.icons {
+  width: 350px;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+.icons i {
+  font-size: 30px;
+  color: #fff;
+  cursor: pointer;
+}
+.icons i:hover {
+  color: #95a3b3;
+}
+
+/* header parts */
+.rs-one{
+  margin-right: 50px;
+  cursor: pointer;
+}
+.rs-one i{
+  font-size: 40px;
+}
+.mob-nav{
+  display: none;
+}

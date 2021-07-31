@@ -1,0 +1,120 @@
+.item-box {
+  border-bottom: 2px solid #3fc7a5;
+  padding: 20px;
+  margin: 50px;
+  width: 800px;
+  height: 35vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.item-box img {
+  height: 100%;
+  width: 40%;
+  background-color: rgb(255, 255, 255);
+  border: 2px solid black;
+  border-radius: 20px;
+}
+
+.item-box .desc {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 40%;
+  height: 100%;
+  padding: 0%;
+}
+.item-box h1 {
+    margin-top: 0px;
+    font-family: "Bubblegum Sans", cursive;
+}
+.item-box h2 {
+    margin-top: 0px;
+    color: #4b4e6d;
+    font-family: "Bubblegum Sans", cursive;
+} 
+.item-box h3 {
+    margin-top: 10px;
+    color: #fcfcfc;
+    padding: 10px 20px;
+    background-color: #3fc7a5;
+    border-radius: 5px;
+    font-family: "Bubblegum Sans", cursive;
+}
+.desc h4 {
+  margin-top: 10px;
+  font-family: "Bubblegum Sans", cursive;
+  font-size: 16px;
+  color: #4b4e6d;
+}
+.item-box .item-page-icons {
+  width: 150px;
+  display: flex;
+  justify-content: space-around;
+}
+.item-page-icons i {
+  font-size: 22px;
+  color: #484B69;
+}
+
+/* amounting */
+.amounting-box {
+  background: #ffffff;
+  box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.25),
+    inset 10px 10px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  height: 58vh;
+  width: 400px;
+  margin-top: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.amounting-box  h1{
+margin-top: 40px ;
+font-size: 40px;
+color: #1bbe96;
+}
+
+.box-content h2 {
+     color: #4b4e6d;
+     margin: 20px 30px 0px 0px;
+     font-size: 30px;
+}
+
+
+.box-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-a {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+}
+.box-b{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    flex-direction: column;
+
+}
+
+.btn{
+    padding: 10px 25px;
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 40px;
+    background-color: #3fc7a5;
+    color: white;
+    border-radius: 5px;
+}
+.btn-b{
+    margin-top: 20px;
+    background-color: #484B69;
+}
+

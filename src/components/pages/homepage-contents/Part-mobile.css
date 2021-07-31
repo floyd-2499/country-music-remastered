@@ -1,0 +1,176 @@
+/* part1 */
+@media (max-width: 1450px) {
+  .i-page {
+    flex-direction: column-reverse;
+  }
+  .intro-part1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+  }
+  .intro-part1 h1 {
+    width: 100%;
+    text-align: center;
+  }
+  .intro-part2 {
+    display: none;
+  }
+}
+@media (max-width: 900px) {
+  .intro-part2 {
+    margin-top: 30px;
+    display: block;
+  }
+  .intro-part2 img {
+    height: 100%;
+    width: 90%;
+    margin: auto;
+  }
+  .intro-part1 p {
+    font-size: 25px;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+  }
+}
+@media (max-width: 700px) {
+  .intro {
+    margin-bottom: 50px;
+  }
+  .intro-part1 h5 {
+    font-size: 16px;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .intro-part1 p {
+    font-size: 20px;
+  }
+  .pro-page-link {
+    font-size: 22px;
+  }
+}
+/* part2 */
+@media (max-width: 900px) {
+  .slide {
+    background-image: url(../Images/Frame\ 84-md.png);
+  }
+  .slide-con {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .slide-con h1 {
+    text-align: center;
+  }
+  .slide-con h2 {
+    text-indent: 0px;
+  }
+  .slide-con p {
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+  }
+  .part2-link {
+    font-size: 22px;
+  }
+}
+@media (max-width: 600px) {
+  .slide {
+    background-image: url(../Images/Frame84-sm.png);
+  }
+}
+
+/* part4 */
+@media (max-width: 900px) {
+  .Partners h1,
+  .Service h1 {
+    font-size: 50px;
+  }
+  .Partners ul {
+    max-width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .Partners ul li {
+    width: 80px;
+    padding: 10px;
+    margin: 10px;
+    font-size: 22px;
+  }
+}
+@media (max-width: 700px) {
+  .Partners h1,
+  .Service h1 {
+    font-size: 40px;
+  }
+  .Partners ul li{
+      font-size: 20px;
+  }
+  .S-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .S-info-item  {
+      border-right: none;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      width: 300px;
+      margin: 15px auto;
+  }
+
+}
+
+/* part3 */ 
+@media (max-width: 850px){
+    .sub-container{
+        width: 90%;
+        margin: auto;
+        height: auto;
+        padding: 30px 0px;
+    }
+    .sub-container .sub-part1 .h1-part3 {
+        font-size: 44px;
+    }
+    .sub-container .sub-part1 h2 {
+        font-size: 40px;
+    }
+    .sub-container .sub-part2,
+    .sub-part2-a-input{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 90%;
+        margin: auto;
+    }
+    .sub-part2-a{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+    .sub-part2-a p{
+        text-indent: 0px;
+        width: 100%;
+        margin-top: 20px;
+    }
+    .sub-part2-b{
+        width: 100%;
+        margin: 20px auto;
+    }
+} 

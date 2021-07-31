@@ -1,0 +1,140 @@
+/* @media (max-width: 600px) {
+
+  .f{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+  }
+} */
+
+/* about */
+
+@media (max-width: 1100px) {
+  .about-mission {
+    display: flex;
+    flex-direction: column;
+  }
+  .tabs {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    width: 300px;
+  }
+  .about-mission h2:hover {
+    border-bottom: 2px solid #3fc7a5;
+    border-right: none;
+    width: fit-content;
+  }
+  .content {
+    max-width: 80%;
+  }
+  .image-container-bottom img {
+    width: 100%;
+    height: auto;
+  }
+}
+@media (max-width: 900px) {
+  .about-page h1 {
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+  }
+  .image-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 100%;
+  }
+  .about-text {
+    width: 70%;
+    margin: 0px auto 30px auto;
+    font-size: 22px;
+  }
+}
+
+/* contact */
+@media (max-width: 1250px) {
+  .contact-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #ffffff;
+    height: auto;
+    width: 70%;
+    padding: 20px;
+  }
+  .contact-container .part-1 {
+    width: 90%;
+    margin: auto;
+  }
+  .contact-container .part-1 img {
+    height: auto;
+  }
+  .contact-container .part-2 {
+    width: 100%;
+    margin-top: 30px;
+  }
+  .contact-container .part-2 h2 {
+    width: 100%;
+    margin: 20px auto;
+    text-align: center;
+  }
+}
+
+@media (max-width: 900px) {
+  .contact h1 {
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+  }
+}
+@media (max-width: 600px) {
+  .contact-container .part-2 input,
+  textarea {
+    width: 80%;
+    margin: 10px auto;
+  }
+}
+/* cart-page */
+@media (max-width: 1350px) {
+    .cart-page-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+      }
+      .cart-item-display{
+        width: 80%;
+        margin: auto;
+      }
+      .amount-display{
+        width: 80%;
+        margin: auto;
+      }
+      .cart-top {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 20px;
+      }
+}
+/* pro - page */
+@media (max-width: 575px) {
+    .side-bar {
+        display: none;
+      }
+      .pro-main{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 100%;
+      }
+      .main-container .filter input{
+          margin-right: 5px;
+      }
+}

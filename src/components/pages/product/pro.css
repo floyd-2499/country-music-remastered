@@ -1,0 +1,58 @@
+.card {
+  background-color: white;
+  width: 275px;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+.card h1 {
+    font-family: "Bubblegum Sans", cursive;
+    text-align: center;
+}
+
+.card .image-con {
+  background-color: wheat;
+  height: 200px;
+  width: 100%;
+}
+.card h3{
+    font-size: 22px;
+    color: #222;
+    letter-spacing: 1px;
+}
+.card h5 {
+    margin: 10px 0px;
+    color: #4b4e6d;
+}
+h1.price{
+    font-size: 35px;
+    font-family: "Bubblegum Sans", cursive;
+    text-align: center;
+}
+del{
+    font-size: 20px;
+    font-weight: 500;
+}
+.save{
+    padding: 10px 30px;
+    color: white;
+    font-size: 25px;
+    background-color: #3fc7a5 ;
+    border-radius: 5px;
+}
+.cartpage-link{
+    font-size: 22px;
+    background-color: #4b4e6d;
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding: 15px 0px;
+    font-family: "Bubblegum Sans", cursive;
+}
+.cartpage-link:hover{
+    background-color: #46ac86;
+    color: white;
+}
