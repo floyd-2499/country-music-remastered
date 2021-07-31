@@ -1,0 +1,246 @@
+{
+    "instruments": [
+        {
+            "id" : 1,
+            "count": 1,
+            "item": "Mini - 2",
+            "company" : "AKAI",
+            "price" : "6,455",
+            "mrp" : "8,455",
+            "discount": "15",
+            "category": "Keyboard",
+            "img" : "akai"
+        },
+        {
+            "id" : 2,
+            "count": 1,
+            "item": "Mini - 3",
+            "company" : "AKAI",
+            "price" : "4,995",
+            "mrp" : "6,000",
+            "discount": "15",
+            "category": "Keyboard",
+            "img" : "mini3"
+        },
+        {
+            "id" : 3,
+            "count": 1,
+            "item": "PSR F51",
+            "company" : "YAMAHA ",
+            "price" : "7,199",
+            "mrp" : "9,620",
+            "discount": "10",
+            "category": "Keyboard",
+            "img" : "f51"
+        },
+        {
+            "id" : 4,
+            "count": 1,
+            "item": "PSR E463",
+            "company" : "YAMAHA",
+            "price" : "17,189",
+            "mrp" : "22,790",
+            "discount": "10",
+            "category": "Keyboard",
+            "img" : "e463"
+        },
+        {
+            "id" : 5,
+            "count": 1,
+            "item": "Casio KS47",
+            "company" : "Casio",
+            "price" : "7,595",
+            "mrp" : "10,550",
+            "discount": "10",
+            "category": "Keyboard",
+            "img" : "ks47"
+        },
+        {
+            "id" : 6,
+            "count": 1,
+            "item": "Casio  KH38",
+            "company" : "Casio",
+            "price" : "22,298",
+            "mrp" : "27,950",
+            "discount": "10",
+            "category": "Keyboard",
+            "img" : "KH38"
+        },
+        {
+            "id" : 7,
+            "count": 1,
+            "item": "XPS30",
+            "company" : "Roland",
+            "price" : "62,298",
+            "mrp" : "71,500",
+            "discount": "10",
+            "category": "Keyboard",
+            "img" : "roland"
+        },
+        {
+            "id" : 8,
+            "count": 1,
+            "item": "Electric Bass Guitar",
+            "company" : "Kadence",
+            "price" : "13,999",
+            "mrp" : "19,200",
+            "discount": "27",
+            "category": "Bass-Guitar",
+            "img" : "KBass"
+        },
+        {
+            "id" : 9,
+            "count": 1,
+            "item": "Electric Bass Guitar",
+            "company" : "YAMAHA",
+            "price" : "16,625",
+            "mrp" : "18,990",
+            "discount": "12",
+            "category": "Bass-Guitar",
+            "img" : "ybass"
+        },
+        {
+            "id" : 10,
+            "count": 1,
+            "item": "FG800",
+            "company" : "YAMAHA",
+            "price" : "13,999",
+            "mrp" : "15,999",
+            "discount": "13",
+            "category": "Acoustic Guitar",
+            "img" : "yauc"
+        },
+        {
+            "id" : 11,
+            "count": 1,
+            "item": "Acoustic Guitar",
+            "company" : "Juarez",
+            "price" : "2,499",
+            "mrp" : "6,990",
+            "discount": "64",
+            "category": "Acoustic Guitar",
+            "img" : "JAuc"
+        },
+        {
+            "id" : 12,
+            "count": 1,
+            "item": "Wanderer - Ukulele",
+            "company" : "Kadence",
+            "price" : "2,199",
+            "mrp" : "3,500",
+            "discount": "37",
+            "category": "Acoustic Guitar",
+            "img" : "KUki"
+        },
+        {
+            "id" : 13,
+            "count": 1,
+            "item": "PACIFICA012 - Black",
+            "company" : "YAMAHA",
+            "price" : "16,199",
+            "mrp" : "17,990",
+            "discount": "6",
+            "category": "Electric Guitar",
+            "img" : "yblack"
+        },
+        {
+            "id" : 14,
+            "count": 1,
+            "item": "PACIFICA012 - Blue",
+            "company" : "YAMAHA",
+            "price" : "16,199",
+            "mrp" : "17,990",
+            "discount": "6",
+            "category": "Electric Guitar",
+            "img" : "yblue"
+        },
+        {
+            "id" : 15,
+            "count": 1,
+            "item": "Frontier",
+            "company" : "Kadence",
+            "price" : "4,999",
+            "mrp" : "7,000",
+            "discount": "29",
+            "category": "Acoustic Guitar",
+            "img" : "KAuc"
+        },
+        {
+            "id" : 16,
+            "count": 1,
+            "item": "JRZ-ST01",
+            "company" : "Juarez",
+            "price" : "5,450",
+            "mrp" : "14,990",
+            "discount": "64",
+            "category": "Electric Guitar",
+            "img" : "JEle"
+        },
+        {
+            "id" : 17,
+            "count": 1,
+            "item": "XD80USB",
+            "company" : "Behringer",
+            "price" : "42,990",
+            "mrp" : "70,000",
+            "discount": "39",
+            "category": "Electric Drum Set",
+            "img" : "BXDEl"
+        },
+        {
+            "id" : 18,
+            "count": 1,
+            "item": "DTXM12 Multi Pad",
+            "company" : "YAMAHA",
+            "price" : "44,953",
+            "mrp" : "50,490",
+            "discount": "11",
+            "category": "Electric Drum Set",
+            "img" : "YPad"
+        },
+        {
+            "id" : 19,
+            "count": 1,
+            "item": "RS525SCC91",
+            "company" : "Pearl",
+            "price" : "45,990",
+            "mrp" : "48,325",
+            "discount": "5",
+            "category": "Drum Set",
+            "img" : "Pearl"
+        },
+        {
+            "id" : 20,
+            "count": 1,
+            "item": "TD-1DMK",
+            "company" : "Roland",
+            "price" : "62,919",
+            "mrp" : "89,821",
+            "discount": "30",
+            "category": "Electric Drum Set",
+            "img" : "RolandEl"
+        },
+        {
+            "id" : 21,
+            "count": 1,
+            "item": "SG58H5",
+            "company" : "Tama ",
+            "price" : "38,999",
+            "mrp" : "42,999",
+            "discount": "9",
+            "category": "Drum Set",
+            "img" : "Tama"
+        },
+        {
+            "id" : 22,
+            "count": 1,
+            "item": "HV522",
+            "company" : "Havana ",
+            "price" : "22,499",
+            "mrp" : "28,990",
+            "discount": "22",
+            "category": "Drum Set",
+            "img" : "Havana"
+        }
+    ]
+}
