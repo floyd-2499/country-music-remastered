@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/country-music-remastered/static/css/main.de3215dd.chunk.css",
+    "main.js": "/country-music-remastered/static/js/main.de21c494.chunk.js",
+    "main.js.map": "/country-music-remastered/static/js/main.de21c494.chunk.js.map",
+    "runtime-main.js": "/country-music-remastered/static/js/runtime-main.7355d80d.js",
+    "runtime-main.js.map": "/country-music-remastered/static/js/runtime-main.7355d80d.js.map",
+    "static/js/2.fbc5bfbf.chunk.js": "/country-music-remastered/static/js/2.fbc5bfbf.chunk.js",
+    "static/js/2.fbc5bfbf.chunk.js.map": "/country-music-remastered/static/js/2.fbc5bfbf.chunk.js.map",
+    "index.html": "/country-music-remastered/index.html",
+    "static/css/main.de3215dd.chunk.css.map": "/country-music-remastered/static/css/main.de3215dd.chunk.css.map",
+    "static/js/2.fbc5bfbf.chunk.js.LICENSE.txt": "/country-music-remastered/static/js/2.fbc5bfbf.chunk.js.LICENSE.txt",
+    "static/media/Part-mobile.css": "/country-music-remastered/static/media/Frame84-sm.3f7d6b0f.png",
+    "static/media/Part.css": "/country-music-remastered/static/media/Frame 84.96fbd08e.png",
+    "static/media/about.94c5e9ac.svg": "/country-music-remastered/static/media/about.94c5e9ac.svg",
+    "static/media/abt.96a8aa78.svg": "/country-music-remastered/static/media/abt.96a8aa78.svg",
+    "static/media/ad.bdbe1e4b.svg": "/country-music-remastered/static/media/ad.bdbe1e4b.svg",
+    "static/media/adbottom.d8aa97e7.svg": "/country-music-remastered/static/media/adbottom.d8aa97e7.svg",
+    "static/media/contact.ff2bffc4.svg": "/country-music-remastered/static/media/contact.ff2bffc4.svg",
+    "static/media/intro.404e21e0.svg": "/country-music-remastered/static/media/intro.404e21e0.svg",
+    "static/media/logo.bd032d4d.svg": "/country-music-remastered/static/media/logo.bd032d4d.svg",
+    "static/media/review.b2542be7.svg": "/country-music-remastered/static/media/review.b2542be7.svg",
+    "static/media/subscription.4f410468.svg": "/country-music-remastered/static/media/subscription.4f410468.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7355d80d.js",
+    "static/js/2.fbc5bfbf.chunk.js",
+    "static/css/main.de3215dd.chunk.css",
+    "static/js/main.de21c494.chunk.js"
+  ]
+}
