@@ -1,8 +1,26 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Part.css";
 import img from "../Images/subscription.svg";
 
 const Part3 = () => {
+  const [email, setEmail] = useState("");
+  const [display, setDisplsy] = useState("none");
+  const [txt, setTxt] = useState("Please enter valid email")
+
+  function resetInput(e) {
+    e.preventDefault();
+    setEmail("");
+    if (email === "") {
+      setDisplsy("none");
+    } else if(email.includes("@") && email.includes(".com")) {
+      setDisplsy("flex");
+      setTxt("Thank You")
+    }else{
+      setDisplsy("flex");
+      setTxt("Please enter valid email")
+    }
+  }
+
   return (
     <div className="subscription">
       <div className="sub-container">
@@ -16,9 +34,18 @@ const Part3 = () => {
               Stay updated with all the latest News & Products from COUNTRY
               MUSIC .
             </p>
-            <div className="sub-part2-a-input">
-              <input type="email" placeholder="Enter Your Email" />  
-              <button> Submit</button>
+            <form className="sub-part2-a-input" onClick={resetInput}>
+              <input
+                type="email"
+                placeholder="Enter Your Email"
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
+              />
+              <button onClick={resetInput}> Submit</button>
+            </form>
+            <div className="txt" style={{ display: `${display}` }}>
+              <h3>{txt}</h3>
+              <i className="fas fa-times" onClick={() => setDisplsy("none")}></i>
             </div>
           </div>
           <div className="sub-part2-b">

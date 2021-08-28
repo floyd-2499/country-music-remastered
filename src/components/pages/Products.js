@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { actionTypes } from "./product/actions/action";
-import Header from "./contents/Header";
-import Footer from "./contents/Footer";
+import Header from "./header&footer/Header";
+import Footer from "./header&footer/Footer";
 import Product from "./product/Product";
 import "./pageStyling.css";
 import './page-phone.css'
@@ -15,6 +15,7 @@ const Products = () => {
 
   const dispatch = useDispatch();
   const { instruments, loading } = useSelector((state) => state.getInstruments);
+  
 
   useEffect(() => {
     dispatch({ type: actionTypes.GET_INSTRUMENTS });

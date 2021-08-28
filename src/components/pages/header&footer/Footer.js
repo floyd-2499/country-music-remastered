@@ -22,17 +22,24 @@ const Footer = () => {
         <div className="social-media">
           <p>CONNECT WITH US</p>
           <div className="icons">
-            <i className="fab fa-facebook"></i>
-            <i className="fab fa-instagram"></i>
-            <i className="fab fa-twitter"></i>
-            <i className="fab fa-linkedin-in"></i>
+            <a href="https://www.facebook.com/">
+              <i className="fab fa-facebook"></i>
+            </a>
+            <a href="https://www.instagram.com/">
+              <i className="fab fa-instagram"></i>
+            </a>
+            <a href="https://twitter.com/home?lang=en">
+              <i className="fab fa-twitter"></i>
+            </a>
+            <a href="https://www.linkedin.com/">
+              <i className="fab fa-linkedin-in"></i>
+            </a>
           </div>
         </div>
-
       </div>
       <div className="f-text">
-          © Country Music 2021 | Designed by Floyd Manuel
-        </div>
+        © Country Music 2021 | Designed by Floyd Manuel
+      </div>
     </div>
   );
 };

@@ -1,6 +1,6 @@
 import React from "react";
-import Header from "./contents/Header";
-import Footer from "./contents/Footer";
+import Header from "./header&footer/Header";
+import Footer from "./header&footer/Footer";
 import about from "./Images/about.svg";
 import abt from "./Images/abt.svg";
 import { useState } from "react";
@@ -10,9 +10,19 @@ import "./pageStyling.css";
 const About = () => {
   const [displayMission, setDisplayMission] = useState("block");
   const [displayValue, setDisplayValue] = useState("none");
+  const [ colormission, setColormission] = useState("#3fc7a5");
+  const [ colorvalues, setColorvalues] = useState("#4b4e6d");
+
+  // if(displayMission === "block") {
+  //   setColormission("#3fc7a5")
+  // }
+  // if(displayValue === "block") {
+  //   setColorvalues("#3fc7a5")
+  // }
 
   return (
     <div className="about-page">
+      
       <Header />
       <h1>ABOUT US</h1>
       <div className="image-container">
@@ -34,7 +44,10 @@ const About = () => {
             onClick={() => {
               setDisplayMission("block");
               setDisplayValue("none");
+              setColormission("#3fc7a5")
+              setColorvalues("#4b4e6d")
             }}
+            style={{  color: `${colormission}`}}
           >
             MISSION
           </h2>
@@ -42,12 +55,15 @@ const About = () => {
             onClick={() => {
               setDisplayMission("none");
               setDisplayValue("block");
+              setColorvalues("#3fc7a5")
+              setColormission("#4b4e6d")
             }}
+            style={{color: `${colorvalues}` }}
           >
             VALUE
           </h2>
         </div>
-        <div className="mission content" style={{ display: `${displayMission}` }}>
+        <div className="mission content" style={{ display: `${displayMission}`}}>
           A mission statement is a short summary of an organization’s core
           purpose, focus, and aims. This usually includes a brief description of
           what the organization does and its key objectives.
@@ -55,7 +71,7 @@ const About = () => {
           <br />
           <small>-- MISSION --</small>
         </div>
-        <div className="values content" style={{ display: `${displayValue}` }}>
+        <div className="values content" style={{ display: `${displayValue}`}}>
           A vision statement is a short description of an organization’s
           aspirations and the wider impact it aims to create. It should be a
           guiding beacon to everyone within the organization and something which

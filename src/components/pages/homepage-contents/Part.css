@@ -12,6 +12,8 @@
   margin: auto;
   display: flex;
   flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 .intro-part1 {
   flex: 4;
@@ -225,6 +227,13 @@ box-shadow: none;
   width: 100%;
   height: auto;
 }
+.txt {
+  width: 90%;
+  margin: auto;
+  text-align: center;
+  justify-content: space-between;
+}
+
 
 /* Part4 */
 .S-P {

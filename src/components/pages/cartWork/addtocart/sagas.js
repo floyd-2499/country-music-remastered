@@ -1,9 +1,11 @@
-import { takeEvery, all } from "redux-saga/effects";
+import { takeEvery } from "redux-saga/effects";
 import { actionTypes } from "./action";
 
+
 function* addToCartSaga({ payload }) {
-  const oldCartItems = JSON.parse(localStorage.getItem("cart-items"));
-  const cartItems = [];
+  const oldCartItems = JSON.parse(localStorage.getItem('cart-item'));
+  // console.log(oldCartItems)
+  let cartItems = [];
   if (oldCartItems) {
     cartItems.push(...oldCartItems);
     if (!oldCartItems.find((item) => item.id === payload.id)) {
@@ -12,9 +14,10 @@ function* addToCartSaga({ payload }) {
   } else {
     cartItems.push(payload);
   }
-  yield localStorage.setItem("cart-items", JSON.stringify(cartItems));
+  
+  yield localStorage.setItem('cart-item', JSON.stringify(cartItems));
 }
 
 export default function* addToCartWatcherSaga() {
-  yield all([takeEvery(actionTypes.ADD_TO_CART, addToCartSaga)]);
+  yield takeEvery(actionTypes.ADD_TO_CART_SUCCESS, addToCartSaga);
 }

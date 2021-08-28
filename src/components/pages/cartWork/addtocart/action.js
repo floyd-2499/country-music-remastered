@@ -1,0 +1,5 @@
+export const actionTypes = {
+    ADD_TO_CART_SUCCESS: 'ADD_TO_CART_SUCCESS',
+    ADD_TO_CART_FAIL: 'ADD_TO_CART_FAIL',
+    ADD_TO_CART_LOADING: 'ADD_TO_CART_LOADING'
+  }

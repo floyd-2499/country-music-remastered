@@ -14,9 +14,15 @@
 }
 
 .card .image-con {
-  background-color: wheat;
-  height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  height: 300px;
   width: 100%;
+}
+.card .image-con img {
+    width:100%;
+    height: 100%;
 }
 .card h3{
     font-size: 22px;
